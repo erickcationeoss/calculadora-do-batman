@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Conversor de moedas do cationi</h2>
+        <input type="number" id="amount" placeholder="Valor da moeda">
 
+        <label for="fromCurrency">De:</label>
+        <select id="fromCurrency"></select>
+
+        <label for="toCurrency">Para:</label>
+        <select id="toCurrency"></select>
+
+        <button onclick="convertCurrency()">Converter</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
